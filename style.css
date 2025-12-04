@@ -1,0 +1,73 @@
+* {
+	font-family: 'Source Sans Pro', 'sans-serif';
+}
+
+
+html,
+body {
+	min-height: 100%;
+}
+
+body {
+	background-color: antiquewhite;
+	display: flex;
+	flex-direction: column;
+}
+
+svg {
+	padding: 10px;
+}
+
+.canvas {
+	min-height: 500px;
+	min-width: 950px;
+}
+
+.title {
+	font-size: 20px;
+	color: black;
+
+	text-align: center;
+}
+
+
+.description {
+	text-decoration: none;
+	color: black;
+	text-align: center;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	width: 100%;
+}
+
+.tooltip {
+	position: absolute;
+	color: white;
+	background: rgba(0, 0, 0, 0.8);
+	padding: 8px 12px;
+	border-radius: 6px;
+	pointer-events: none;
+	opacity: 0;
+	font-size: 14px;
+}
+
+button {
+	padding: 8px 16px;
+	font-size: 16px;
+	background-color: white;
+	color: black;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.yearLabel {
+	text-align: center;
+	margin: 0;
+}
